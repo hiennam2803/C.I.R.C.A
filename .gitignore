@@ -1,0 +1,22 @@
+# Thư viện cài từ npm (chạy `npm install` để tạo lại)
+node_modules/
+
+# Bản đóng gói / build
+dist/
+out/
+release/
+
+# Nhật ký và file tạm
+*.log
+npm-debug.log*
+*.tmp
+
+# Biến môi trường, khóa bí mật
+.env
+.env.*
+
+# Hệ điều hành / trình soạn thảo
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

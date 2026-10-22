@@ -1,0 +1,57 @@
+
+{
+  "schemaVersion": 1,
+  "providers": [
+    {
+      "id": "claude",
+      "name": "Claude",
+      "url": "https://claude.ai/",
+      "enabled": true,
+      "integration": {
+        "type": "electron-web-contents",
+        "profile": "claude",
+        "allowEmbedding": false
+      },
+      "capabilities": {
+        "webChat": true,
+        "login": true,
+        "sendMessage": false,
+        "readResponse": false
+      }
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/",
+      "enabled": true,
+      "integration": {
+        "type": "electron-web-contents",
+        "profile": "chatgpt",
+        "allowEmbedding": false
+      },
+      "capabilities": {
+        "webChat": true,
+        "login": true,
+        "sendMessage": false,
+        "readResponse": false
+      }
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "url": "https://gemini.google.com/",
+      "enabled": true,
+      "integration": {
+        "type": "electron-web-contents",
+        "profile": "gemini",
+        "allowEmbedding": false
+      },
+      "capabilities": {
+        "webChat": true,
+        "login": true,
+        "sendMessage": false,
+        "readResponse": false
+      }
+    }
+  ]
+}
